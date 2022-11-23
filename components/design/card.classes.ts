@@ -1,7 +1,7 @@
 import { ICardClass } from "../Card";
 
 export default <ICardClass>{
-  base: "max-w-sm rounded overflow-hidden shadow-lg p-4",
+  base: "max-w-sm rounded overflow-hidden shadow-lg p-5",
   bgColor: {
     white: "bg-white",
     gray: "bg-gray-100"

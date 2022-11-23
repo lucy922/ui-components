@@ -16,6 +16,7 @@ export interface IButtonClass {
     sm: string;
     md: string;
     lg: string;
+    xl: string;
   };
 }
 

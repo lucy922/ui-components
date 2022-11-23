@@ -11,8 +11,10 @@ export interface IlabelProps {
 
 export const Label = (props: IlabelProps) => {
   return (
-    <label className={classes.base} htmlFor={props.for}>
-      {props.children}
-    </label>
+    <>
+      <label className={classes.base} htmlFor={props.for}>
+        {props.children}
+      </label>
+    </>
   );
 };
