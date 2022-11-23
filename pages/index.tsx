@@ -3,6 +3,7 @@ import { Button } from "../components/Button";
 import { Card } from "../components/Card";
 import { Input } from "../components/Input";
 import { Label } from "../components/Label";
+import { Link } from "../components/Link";
 
 const Home: NextPage = () => {
   return (
@@ -18,7 +19,7 @@ const Home: NextPage = () => {
         <Button type="submit" size="sm" variant="primary">
           Button
         </Button>
-        <div>ndfyuefguwh</div>
+        <Link href="/">ndfyuefguwh</Link>
         <div>ndfyuefguwh</div>
         <div>ndfyuefguwh</div>
         <div>ndfyuefguwh</div>
