@@ -1,7 +1,7 @@
 import { IButtonClass } from "../Button";
 
 export default <IButtonClass>{
-  base: "p-2 rounded text-center text-black",
+  base: "p-2 rounded text-center text-white",
   variant: {
     outlined: "border-solid border-2 border-sky-500",
     primary: "bg-blue-700",
@@ -14,5 +14,6 @@ export default <IButtonClass>{
     sm: "w-32",
     md: "w-40",
     lg: "w-64",
+    xl: "w-full"
   }
 }

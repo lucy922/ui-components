@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import classes from "./design/card.classes";
+import classes from "./design/Card.classes";
 
 export interface ICardClass {
   base: string;
@@ -34,15 +34,17 @@ export interface ICardProps {
 
 export const Card = (props: ICardProps) => {
   return (
-    <div
-      className={classNames(
-        classes.base,
-        classes.size[props.size ?? "full"],
-        classes.bgColor[props.bgColor ?? "white"],
-        classes.textColor
-      )}
-    >
-      {props.children}
-    </div>
+    <>
+      <div
+        className={classNames(
+          classes.base,
+          classes.size[props.size ?? "full"],
+          classes.bgColor[props.bgColor ?? "white"],
+          classes.textColor
+        )}
+      >
+        {props.children}
+      </div>
+    </>
   );
 };
