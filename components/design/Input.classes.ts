@@ -1,7 +1,7 @@
 import { IinputClass } from "../Input";
 
 export default <IinputClass>{
-base: "text-black rounded outline-none p-5 w-full mt-2 mb-8",
+base: "text-black rounded outline-none p-5 w-full mt-2 mb-5",
 size: {
   sm: "py-1.5",
   md: "py-2",

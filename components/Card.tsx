@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import classes from "./design/Card.classes";
+import classes from "./design/card.classes";
 
 export interface ICardClass {
   base: string;

@@ -1,7 +1,7 @@
 import { IButtonClass } from "../Button";
 
 export default <IButtonClass>{
-  base: "p-2 rounded text-center text-white",
+  base: "p-2 rounded text-center text-white mt-4",
   variant: {
     outlined: "border-solid border-2 border-sky-500",
     primary: "bg-blue-700",
