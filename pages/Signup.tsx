@@ -2,14 +2,12 @@ import { Button } from "../components/Button";
 import { Card } from "../components/Card";
 import { Input } from "../components/Input";
 import { Label } from "../components/Label";
-import { Checkbox } from "../components/Checkbox";
 
 function Signup() {
   return (
     <div className="flex flex-col mt-28 items-center">
       <Card bgColor="white" size="11/12">
         <h1 className="text-center font-medium text-lg">Sign Up</h1>
-        <Checkbox name="checkbox" labeltext="check" checked={false} />
         <Label>First Name</Label>
         <Input
           type="text"

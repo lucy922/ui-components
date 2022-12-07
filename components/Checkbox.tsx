@@ -22,7 +22,7 @@ export const Checkbox = ({
 // ...shared
 ICheckboxProps) => {
   return (
-    <div>
+    <div className="flex items-center h-5 py-5 mb-5">
       <input
         type="checkbox"
         // onChange={(e) => onChange(e.target.checked)}
