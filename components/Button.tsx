@@ -11,6 +11,11 @@ export interface IButtonClass {
     success: string;
     warning: string;
     danger: string;
+    transparent: string;
+  };
+  textColor: {
+    dark: string;
+    white: string;
   };
   size: {
     sm: string;
@@ -26,6 +31,7 @@ export interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   type?: "button" | "reset" | "submit";
   variant?: keyof IButtonClass["variant"];
   size?: keyof IButtonClass["size"];
+  textColor?: keyof IButtonClass["textColor"];
   onClick?: () => void;
 }
 
@@ -37,6 +43,7 @@ export const Button = (props: IButtonProps) => {
       disabled={props.disabled}
       className={classNames(
         classes.base,
+        classes.textColor[props.textColor ?? "white"],
         classes.variant[props.variant ?? "primary"],
         classes.size[props.size ?? "sm"]
       )}
