@@ -26,8 +26,8 @@ export const Dropdown = (props: IDropdownProps) => {
           variant="transparent"
           onClick={handleclick}
         >
-          <div>
-            Dropdown
+          <div className={classes.base}>
+            <span>Dropdown</span>
             <ChevronDown />
           </div>
         </Button>

@@ -1,5 +1,5 @@
 import { IDropdownClass } from "../Dropdown";
 
 export default <IDropdownClass>{
-  base: "text-dark flex"
+  base: "text-dark flex items-center"
 }

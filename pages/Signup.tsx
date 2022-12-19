@@ -1,6 +1,5 @@
 import { Button } from "../components/Button";
 import { Card } from "../components/Card";
-import { Dropdown } from "../components/Dropdown";
 import { Input } from "../components/Input";
 import { Label } from "../components/Label";
 
@@ -44,7 +43,6 @@ function Signup() {
         <Button type="submit" size="xl" variant="primary">
           Sign in
         </Button>
-        <Dropdown options={["item 1", "item 2", "item 3"]} />
       </Card>
     </div>
   );
