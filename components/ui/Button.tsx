@@ -1,6 +1,6 @@
 import { ButtonHTMLAttributes } from "react";
 import classNames from "classnames";
-import classes from "./design/Button.classes";
+import classes from "../design/Button.classes";
 
 export interface IButtonClass {
   base: string;

@@ -1,4 +1,4 @@
-import { IlinkClass } from "../Link";
+import { IlinkClass } from "../ui/Link";
 
 export default <IlinkClass>{
   base: "text-base font-medium hover:underline",

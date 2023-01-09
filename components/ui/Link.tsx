@@ -1,4 +1,4 @@
-import classes from "./design/Link.classes";
+import classes from "../design/Link.classes";
 import classNames from "classnames";
 
 export interface IlinkClass {

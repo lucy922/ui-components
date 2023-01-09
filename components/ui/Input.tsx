@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import classes from "./design/Input.classes";
+import classes from "../design/Input.classes";
 export interface IinputClass {
   base: string;
   size: {

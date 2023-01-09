@@ -1,7 +1,7 @@
 import { ReactNode, useState } from "react";
 import { ChevronDown } from "heroicons-react";
 import { Button } from "./Button";
-import classes from "./design/Dropdown.classes";
+import classes from "../design/Dropdown.classes";
 
 export interface IDropdownClass {
   base: string;

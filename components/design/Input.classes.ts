@@ -1,4 +1,4 @@
-import { IinputClass } from "../Input";
+import { IinputClass } from "../ui/Input";
 
 export default <IinputClass>{
 base: "text-black rounded outline-none p-5 w-full mt-2 mb-5",

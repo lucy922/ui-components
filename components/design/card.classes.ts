@@ -1,4 +1,4 @@
-import { ICardClass } from "../Card";
+import { ICardClass } from "../ui/Card";
 
 export default <ICardClass>{
   base: "max-w-md rounded overflow-hidden shadow-lg p-5",

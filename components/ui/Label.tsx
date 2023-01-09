@@ -1,4 +1,4 @@
-import classes from "./design/Label.classes";
+import classes from "../design/Label.classes";
 
 export interface IlabelClass {
   base: string;

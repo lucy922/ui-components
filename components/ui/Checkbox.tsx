@@ -1,6 +1,6 @@
 import { Label } from "./Label";
 import classNames from "classnames";
-import classes from "./design/Checkbox.classes";
+import classes from "../design/Checkbox.classes";
 
 export interface ICheckClass {
   base: string;

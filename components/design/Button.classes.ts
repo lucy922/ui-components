@@ -1,4 +1,4 @@
-import { IButtonClass } from "../Button";
+import { IButtonClass } from "../ui/Button";
 
 export default <IButtonClass>{
   base: "p-2 rounded text-center mt-4",
