@@ -6,10 +6,10 @@ export interface BreadcrumbItemProps {
   href: string;
 }
 
-export const BreadcrumbItem = ({ children, href }: BreadcrumbItemProps) => {
+export const BreadcrumbItem = (props: BreadcrumbItemProps) => {
   return (
     <li>
-      <Link href={href}>{children}</Link>
+      <Link href={props.href}>{props.children}</Link>
     </li>
   );
 };

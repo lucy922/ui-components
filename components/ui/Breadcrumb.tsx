@@ -1,6 +1,10 @@
-import { faAngleRight, faHome } from "@fortawesome/free-solid-svg-icons";
+import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Fragment, ReactNode } from "react";
+
+export interface BreadcrumbClass {
+  disabled: string;
+}
 
 export interface BreadcrumbProps {
   children: ReactNode[];
