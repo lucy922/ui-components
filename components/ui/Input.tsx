@@ -1,4 +1,5 @@
 import classNames from "classnames";
+import { ReactNode } from "react";
 import classes from "../design/Input.classes";
 export interface IinputClass {
   base: string;
@@ -19,9 +20,10 @@ export interface IinputClass {
 export interface IinputProps {
   type?: "checkbox" | "number" | "text" | "password";
   name?: string;
-  placeholder: string;
-  size: keyof IinputClass["size"];
-  variant: keyof IinputClass["variant"];
+  placeholder?: string;
+  size?: keyof IinputClass["size"];
+  variant?: keyof IinputClass["variant"];
+  checked?: boolean;
 }
 
 export const Input = (props: IinputProps) => {

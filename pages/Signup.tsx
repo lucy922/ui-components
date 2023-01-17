@@ -2,6 +2,7 @@ import { Button } from "../components/ui/Button";
 import { Card } from "../components/ui/Card";
 import { Input } from "../components/ui/Input";
 import { Label } from "../components/ui/Label";
+import { Toggle } from "../components/ui/Toggle";
 
 function Signup() {
   return (
@@ -43,6 +44,7 @@ function Signup() {
         <Button type="submit" size="xl" variant="primary">
           Sign in
         </Button>
+        <Toggle />
       </Card>
     </div>
   );
