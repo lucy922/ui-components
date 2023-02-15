@@ -1,19 +1,18 @@
 import { IButtonClass } from "../ui/Button";
 
 export default <IButtonClass>{
-  base: "p-2 rounded text-center mt-4",
+  base: "p-2 rounded-lg text-center my-4",
   variant: {
-    outlined: "border-solid border-2 border-sky-500",
     primary: "bg-blue-700",
-    secondary: "bg-slate-700",
+    secondary: "bg-blue-100",
     success: "bg-green-700",
     warning: "bg-yellow-500",
     danger: "bg-red-700",
     transparent: "border-none outline-none"
   },
   textColor: {
-    dark: "text-dark",
-    white: "text-white"
+    dark: "text-dark font-semibold",
+    white: "text-white font-semibold"
   },
   size: {
     sm: "w-32",
