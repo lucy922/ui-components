@@ -1,11 +1,14 @@
+import Avatar from "../components/ui/Avatar";
 import { Button } from "../components/ui/Button";
 import { Card } from "../components/ui/Card";
 import { Input } from "../components/ui/Input";
 import { Label } from "../components/ui/Label";
+import image from "../public/assets/images/image.jpeg";
 
 function Signup() {
   return (
     <div className="flex flex-col mt-28 items-center">
+      <Avatar size="xl" src={image.src} />
       <Card bgColor="white" size="11/12">
         <h1 className="text-center font-medium text-xl mb-4">Sign Up</h1>
         <Label>First Name</Label>
