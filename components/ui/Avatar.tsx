@@ -1,5 +1,6 @@
 import classes from "../design/Avatar.classes";
 import classNames from "classnames";
+
 export interface AvatarClass {
   base: string;
   size: {
